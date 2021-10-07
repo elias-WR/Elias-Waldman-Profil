@@ -1,16 +1,32 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-</style>
 
 body { 
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(230, 230, 230);
+  text-align: center;
  }
 
 
 h1 { color : blue ; 
-background-color: rgb(230, 230, 230) ;
+background-color: white ;
 }
 
+img { .cercle  
+    height: 100px ; 
+    width: 400px ; 
+    background-color: blue;
+    border: 5px solid rgba(0, 0, 0, 1);
+    border-radius: 50%; 
+   }
+
+.card-white1 { color : red ;
+  background-color: rgb(230, 230, 230) ;
+ }
+
+.card-white2 { text-align: center ;
+ }
+
+.card-white4 { text-align: center;
+}
 
 p { 
   text-align : center;
@@ -20,15 +36,31 @@ p {
 div {
 margin: 30px;
 background: white;                        
-padding: 0px;                             
+padding: 5px;                             
 border-radius: 50px;                        
 box-shadow: 10px 10px 30px rgba(230,230,230,1);
 }
 
+   
 
-h2{color : blue ;
-  background-color: rgb(230, 230, 230);
+
+h2 {
+  font-size: 30px ;
+  color : blue ;
+  background-color: white ;
   text-align: center;
+}
+
+h3 { 
+  font-size: 30px ;
+  color : blue ;
+  background-color: white ;
+  text-align: justify;
 } 
+
+ul { 
+font-size: 40px ;
+text-align: justify;
+ }
 
 
